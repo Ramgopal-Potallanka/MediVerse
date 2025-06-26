@@ -1,0 +1,96 @@
+
+Test Accuracy: 0.9505
+Test Precision: 0.9472
+Test Recall: 0.9505
+Test F1-score: 0.9485
+Confusion Matrix:
+[[2 0 0 ... 0 0 0]
+ [0 3 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+Classification Report:
+                               precision    recall  f1-score   support
+
+                      Allergy       1.00      1.00      1.00         2
+                    Arthritis       1.00      1.00      1.00         3
+                       Asthma       0.50      0.50      0.50         2
+                   Bronchitis       0.50      0.50      0.50         2
+                   Chickenpox       1.00      1.00      1.00         2
+                  Common Cold       1.00      1.00      1.00         2
+                       Dengue       1.00      1.00      1.00         2
+                   Depression       1.00      1.00      1.00         2
+                     Diabetes       1.00      1.00      1.00         2
+                          Flu       1.00      1.00      1.00         2
+               Food Poisoning       0.33      0.50      0.40         2
+              Gastroenteritis       0.00      0.00      0.00         2
+                 Hypertension       1.00      1.00      1.00         2
+                     Jaundice       1.00      1.00      1.00         2
+                      Malaria       1.00      1.00      1.00         2
+                     Migraine       1.00      1.00      1.00         2
+                    Pneumonia       1.00      1.00      1.00         2
+                    Sinusitis       1.00      1.00      1.00         1
+                 Tuberculosis       1.00      1.00      1.00         2
+                      Typhoid       1.00      1.00      1.00         2
+                         acne       1.00      1.00      1.00         1
+                         aids       1.00      1.00      1.00         1
+          alcoholic hepatitis       1.00      1.00      1.00         2
+                      allergy       1.00      1.00      1.00         1
+                    arthritis       1.00      1.00      1.00         1
+             bronchial asthma       1.00      1.00      1.00         1
+         cervical spondylosis       1.00      1.00      1.00         1
+                   chickenpox       1.00      1.00      1.00         2
+          chronic cholestasis       1.00      1.00      1.00         2
+                  common cold       1.00      1.00      1.00         2
+                       dengue       1.00      1.00      1.00         2
+                     diabetes       1.00      1.00      1.00         2
+dimorphic hemmorhoids (piles)       1.00      1.00      1.00         1
+                drug reaction       1.00      1.00      1.00         1
+             fungal infection       1.00      1.00      1.00         1
+              gastroenteritis       1.00      1.00      1.00         1
+                         gerd       1.00      1.00      1.00         1
+                 heart attack       1.00      1.00      1.00         1
+                  hepatitis a       1.00      1.00      1.00         2
+                  hepatitis b       1.00      1.00      1.00         2
+                  hepatitis c       1.00      1.00      1.00         1
+                  hepatitis d       1.00      1.00      1.00         2
+                  hepatitis e       1.00      1.00      1.00         2
+                 hypertension       1.00      1.00      1.00         1
+              hyperthyroidism       1.00      1.00      1.00         2
+                 hypoglycemia       1.00      1.00      1.00         2
+               hypothyroidism       1.00      1.00      1.00         2
+                     impetigo       1.00      1.00      1.00         1
+                     jaundice       1.00      1.00      1.00         2
+                      malaria       1.00      1.00      1.00         2
+                     migraine       1.00      1.00      1.00         2
+               osteoarthritis       1.00      1.00      1.00         1
+ paralysis (brain hemorrhage)       1.00      1.00      1.00         1
+         peptic ulcer disease       1.00      1.00      1.00         1
+                    pneumonia       1.00      1.00      1.00         2
+                    psoriasis       1.00      1.00      1.00         1
+                 tuberculosis       1.00      1.00      1.00         2
+                      typhoid       1.00      1.00      1.00         2
+      urinary tract infection       1.00      1.00      1.00         1
+               varicose veins       1.00      1.00      1.00         2
+                      vertigo       1.00      1.00      1.00         1
+
+                     accuracy                           0.95       101
+                    macro avg       0.96      0.96      0.96       101
+                 weighted avg       0.95      0.95      0.95       101
+
+Cross-validated Accuracy: 0.9682 ± 0.0099
+Cross-validated F1-score: 0.9635 ± 0.0083
+First row of probabilities: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.99561404
+ 0.00438596 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.        ]
+Sum of first row: 1.0

@@ -1,0 +1,15 @@
+verbose: true
+random_state: 42
+model_save_path: './'
+dataset:
+  training_data_path: 'training_data_expanded.csv'
+  test_data_path: 'test_data_cleaned.csv'
+  validation_size: 0.2
+model:
+  decision_tree:
+    criterion: 'entropy'
+  random_forest:
+    n_estimators: 100
+  gradient_boost:
+    n_estimators: 100
+    criterion: 'friedman_mse' 
